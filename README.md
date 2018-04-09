@@ -17,6 +17,7 @@
     [
         {
             "name": "coop-konsum-avenyn",
+            "image": "https://www.avenyn.se/wp-content/uploads/2015/09/coop_dagens_final.jpg",
             "weekly_menu": [
                 [
                     "Coops restaurang Top Notch serverar dagens tre varma r\u00e4tter p\u00e5 buff\u00e9 med tillh\u00f6rande sallad:",

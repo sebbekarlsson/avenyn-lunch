@@ -31,7 +31,10 @@ class AvenySession(object):
 
             for box in soup.find_all('li', {'class': 'dagenslunchruta'}):
                 if box.get('id') not in restaurants:
-                    restaurants[box.get('id')] = Restaurant(box.get('id'))
+                    restaurants[box.get('id')] = Restaurant(
+                        name=box.get('id'),
+                        image=box.find('img').get('src')
+                    )
 
                 menu_text = box.find('p').encode_contents()
                 foods = menu_text.split('<br/> <br/>')
