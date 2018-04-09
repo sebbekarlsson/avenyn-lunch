@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='avenyn-lunch',
-    version='1.1',
+    version='1.4',
     author='ianertson',
     author_email='ianertson@gmail.com',
     install_requires=[
