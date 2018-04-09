@@ -3,7 +3,9 @@ from setuptools import setup
 
 setup(
     name='avenyn-lunch',
-    version='1.0',
+    version='1.1',
+    author='ianertson',
+    author_email='ianertson@gmail.com',
     install_requires=[
         'requests',
         'bs4'

@@ -64,3 +64,7 @@
 > To install, run:
 
     python setup.py install
+
+> You can also run:
+
+    pip install avenyn-lunch
