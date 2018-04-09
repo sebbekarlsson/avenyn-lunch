@@ -14,7 +14,7 @@ def run():
             dayname = DAYS[i]
 
             if prev_name != rest.name:
-                print('*----[ {} ]----*'.format(rest.name))
+                print('\n*----[ {} ]----*'.format(rest.name))
 
             print('> {}:'.format(dayname))
 
